@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+iframe{
+    width:100% ;
+    height:70vh;
+    border:6px solid white;
+
+}
+.loctaion h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    margin: 2rem;
+}
+.loctaion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(41, 16, 2);
+    width: 100%;
+    height: 100vh;
+
+}
+.miniloc {
+    width: 85%;
+    height: 70vh;
+}
+@media only screen and (min-width:300px) and (max-width:600px){
+    .loctaion h1{
+        font-size: 1rem;
+    }
+
+}
